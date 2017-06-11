@@ -1,9 +1,6 @@
 "use strict";
 var Avenger = (function () {
     function Avenger(nombre, equipo, nombreReal) {
-        this.nombre = undefined;
-        this.equipo = undefined;
-        this.nombreReal = undefined;
         this.puedePelear = false;
         this.peleasGanadas = 0;
         this.nombre = nombre;
