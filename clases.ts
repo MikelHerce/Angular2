@@ -3,9 +3,9 @@
 
 class Avenger {
 
-  nombre:string=undefined;
-  equipo:string=undefined;
-  nombreReal:string=undefined;
+  nombre:string;
+  equipo:string;
+  nombreReal:string;
 
   puedePelear:boolean=false;
   peleasGanadas:number=0;
